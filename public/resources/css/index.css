@@ -23,6 +23,11 @@ a {
     text-decoration: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navigation {
     max-width: 1000px;
     margin: auto;
@@ -33,20 +38,11 @@ a {
     margin: auto;
 }
 
-.footer {
+.footer-page {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
     width: 100%;
     background-color: black;
     height: 200px;
-}
-
-.footer-page {
-    width: 100%;
-    background-color: black;
-    height: 150px;
 }
 
 .footer-content {
@@ -60,7 +56,7 @@ a {
     text-align: center;
     width: 25%;
     float: left;
-    transform: translateY(75%);
+    transform: translateY(70px);
 }
 
 .button-socials {
@@ -104,5 +100,5 @@ button:hover {
 }
 
 .fa:hover {
-
+    color: lightgrey;
 }
